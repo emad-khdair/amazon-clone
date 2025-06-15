@@ -11,3 +11,36 @@
 body {
   font-family: Roboto, sans-serif;
 }
+
+/* Category Filter Section */
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(35, 47, 62);
+  padding: 10px 20px;
+  margin-top: 60px;
+  gap: 16px;
+}
+
+.category-button {
+  border: none;
+  text-decoration: none;
+  background: none;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  padding: 4px;
+}
+
+.category-button:hover {
+  border: solid white 1px;
+}
+
+.text-all {
+  font-weight: 600;
+}
