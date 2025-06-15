@@ -17,6 +17,7 @@ body {
 .categories {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   background-color: rgb(35, 47, 62);
   padding: 10px 20px;
   margin-top: 60px;
