@@ -26,6 +26,10 @@
   margin-top: 8px;
 }
 
+.amazon-mobile-logo {
+  display: none;
+}
+
 .amazon-header-middle-section {
   flex: 1;
   max-width: 850px;
@@ -126,4 +130,22 @@
 
   width: 26px;
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  .amazon-header-left-section {
+    width: unset;
+  }
+}
+
+@media (max-width: 575px) {
+  .amazon-logo {
+    display: none;
+  }
+
+  .amazon-mobile-logo {
+    display: block;
+    height: 35px;
+    margin-top: 5px;
+  }
 }
